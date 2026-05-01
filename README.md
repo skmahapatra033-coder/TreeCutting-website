@@ -75,16 +75,11 @@ Tree Service Businesses
 Landscaping Companies
 Gardening Services
 Local Service Providers
-📞 Contact
 
-For customization or development work:
+📞 Contact For development or customization services:
 
-Email: your-email@example.com
-Portfolio: your-portfolio-link
-📄 License
-
-This project is open for personal and commercial use.
+📧 Email: skmahapatra033@gmail.com 🌐 Portfolio: https://github.com/skmahapatra033-coder/ 📄 License
+This project is available for personal and commercial use.
 
 ⭐ Support
-
-If you like this project, please ⭐ the repository.
+If you find this project useful, please ⭐ the repository.
