@@ -1,0 +1,928 @@
+<style>
+    .bg-blur-light {
+        margin-top: 100px;
+        background: rgb(255 255 255 / 58%);
+        backdrop-filter: blur(12px);
+        border: 1px solid rgb(219 230 15 / 84%)
+    }
+
+    .form-control-custom,
+    .form-select.form-control-custom {
+        background: rgba(255, 255, 255, 0.15);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        color: #000;
+    }
+
+    .form-control-custom::placeholder {
+        color: #000;
+    }
+
+    .form-control-custom:focus {
+        background: rgba(255, 255, 255, 0.2);
+        border-color: #fff;
+        box-shadow: none;
+    }
+
+    .booking-form h4 {
+        font-weight: 600;
+    }
+
+    .text-black {
+        color: #000 !important
+    }
+
+    .opa {
+        display: none;
+    }
+
+    @media (max-width: 991px) {
+        .booking-form {
+            margin-top: 40px;
+        }
+    }
+</style>
+
+<!-- header end -->
+<!-- content begin -->
+<div class="no-bottom no-top" id="content">
+
+    <div id="top"></div>
+
+    <section id="section-intro" class="text-light no-top no-bottom relative overflow-hidden z-1000">
+        <div class="h-30 de-gradient-edge-top op-5 dark z-2"></div>
+        <img src="images/logo-wm.webp" class="abs end-0 bottom-0 z-2 w-20 opa" alt="">
+
+        <div class="v-center relative">
+
+            <div class="abs abs-centered z-1000 w-100">
+                <div class="container">
+                    <div class="row g-4 justify-content-between align-items-center">
+
+                        <!-- LEFT SIDE CONTENT -->
+                        <div class="col-lg-7">
+                            <h1 class="text-uppercase wow fadeInUp" data-wow-delay=".3s">
+                                We are ALPS
+                            </h1>
+                            <p class="col-lg-10 wow fadeInUp" data-wow-delay=".6s">
+                                a team of AWESOME, professionally certified, qualified arborists and tree surgeons
+                                experienced in providing tree services, with a focus on customer satisfaction and
+                                safety.
+                            </p>
+                        </div>
+
+                        <!-- RIGHT SIDE BOOKING FORM
+                        <div class="col-lg-4">
+                            <div class="booking-form bg-blur-light rounded-4 p-4 shadow-lg wow fadeInRight"
+                                data-wow-delay=".7s">
+
+                                <h4 class="mb-3 text-black">Book a Consultation</h4>
+
+                                <form>
+                                    <div class="mb-2">
+                                        <label class="form-label text-black">Full Name</label>
+                                        <input type="text" class="form-control form-control-custom"
+                                            placeholder="Enter your name" required>
+                                    </div>
+
+                                    <div class="mb-2">
+                                        <label class="form-label text-black">Phone</label>
+                                        <input type="text" class="form-control form-control-custom"
+                                            placeholder="e.g. 098765 43210" required>
+                                    </div>
+
+                                    <div class="mb-2">
+                                        <label class="form-label text-black">Preferred Date</label>
+                                        <input type="date" class="form-control form-control-custom" required>
+                                    </div>
+
+                                    <div class="mb-2">
+                                        <label class="form-label text-black">Service Type</label>
+                                        <select class="form-select form-control-custom" required>
+                                            <option>- Select Service -</option>
+                                            <option>Tree Removal</option>
+                                            <option>Tree Pruning</option>
+                                            <option>Tree Lopping</option>
+                                            <option>Tree Hedging</option>
+                                            <option>Stump Grinding</option>
+                                        </select>
+                                    </div>
+                                    <div class="mb-2">
+                                        <label class="form-label text-black">Service Type</label>
+                                        <textarea class="form-control form-control-custom" rows="3"
+                                            placeholder="Job details..."></textarea>
+                                    </div>
+
+                                    <button class="btn btn-danger w-100 mt-3">Book Now</button>
+                                </form>
+
+                            </div>
+                        </div> -->
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- BOTTOM TAG BOX ORIGINAL -->
+            <div class="abs bottom-0 z-1000 w-100">
+                <div class="container pb-lg-5 pb-3">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="bg-blur rounded-1 padding40 py-4 wow fadeInDown" data-wow-delay=".9s">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <h4 class="mb-0">Nature's Palette</h4>
+                                    <!-- <a class="btn-main" href="project-single">View Project</a> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SWIPER SLIDER ORIGINAL -->
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="swiper-inner" data-bgimage="url(images/slider/6.jpg)">
+                            <div class="sw-overlay op-2"></div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="swiper-inner" data-bgimage="url(images/slider/7.jpg)">
+                            <div class="sw-overlay op-2"></div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="swiper-inner" data-bgimage="url(images/slider/8.jpg)">
+                            <div class="sw-overlay op-2"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="pb-50" id="about">
+        <div class="container">
+            <div class="row g-4 align-items-center">
+                <div class="col-lg-6">
+                    <div class="relative">
+                        <div class="rounded-1 bg-body w-90 overflow-hidden wow zoomIn">
+                            <img src="images/misc/1.png" class="w-100 jarallax wow scaleIn" alt="">
+                        </div>
+                        <div class="rounded-1 bg-body w-50 abs mb-min-50 end-0 bottom-0 z-2 overflow-hidden shadow-soft wow zoomIn"
+                            data-wow-delay=".2s">
+                            <img src="images/misc/2.png" class="w-100 wow scaleIn" data-wow-delay=".2s" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="ps-lg-3">
+                        <div class="subtitle id-color wow fadeInUp" data-wow-delay=".2s">Welcome to Alps Group</div>
+                        <h2 class="text-uppercase wow fadeInUp" data-wow-delay=".4s">ALPS Tree Services </h2>
+                        <p class="wow fadeInUp" data-wow-delay=".6s">We are ALPS, a team of AWESOME, professionally
+                            certified, qualified arborists and tree surgeons experienced in providing tree services,
+                            with a focus on customer satisfaction and safety.</p>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div style="text-align: center; margin-top:60px;">
+         <a class="btn-main wow fadeInUp" href="services" data-wow-delay=".6s">Our Services</a>
+    </div>
+    <!-- marquee section begin -->
+    <section class="pt-2 pb-1 bg-light mt90" id="services">
+        <div class="wow fadeInRight d-flex">
+            <div class="de-marquee-list relative wow">
+                <span class="fs-36 lh-1 mx-4 text-uppercase title-font">Tree Removal & Trimming</span>
+                <span class="fs-36 lh-1 mx-4 text-uppercase title-font">Arborist Reports</span>
+                <span class="fs-36 lh-1 mx-4 text-uppercase title-font">Stump Grinding</span>
+                <span class="fs-36 lh-1 mx-4 text-uppercase title-font">24/7 Emergency Work</span>
+            </div>
+        </div>
+    </section>
+    <!-- marquee section end -->
+
+    <!-- marquee section begin -->
+    <section class="pt-2 pb-1 bg-color mb60">
+        <div class="wow fadeInLeft d-flex">
+            <div class="de-marquee-list-2 relative wow">
+                <span class="fs-36 lh-1 mx-4 text-white text-uppercase title-font">Tree Removal & Trimming</span>
+                <span class="fs-36 lh-1 mx-4 text-white text-uppercase title-font">Arborist Reports</span>
+                <span class="fs-36 lh-1 mx-4 text-white text-uppercase title-font">Stump Grinding</span>
+                <span class="fs-36 lh-1 mx-4 text-white text-uppercase title-font">24/7 Emergency Work</span>
+            </div>
+        </div>
+    </section>
+    <!-- marquee section end -->
+
+    <section class="p-4">
+        <div class="container-fluid">
+            <div class="row g-4">
+                <div class="col-lg-3 col-sm-6 wow fadeInRight" data-wow-delay=".0s">
+                    <div class="bg-color text-light rounded-1 overflow-hidden">
+                        <div class="hover relative overflow-hidden text-light text-center">
+                            <img src="images/services/1.webp" class="hover-scale-1-1 w-100" alt="">
+                            <div class="abs w-100 px-4 hover-op-1 z-4 hover-mt-40 abs-centered">
+                                <a class="btn-line" href="#">View Details</a>
+                            </div>
+                            <img src="images/logo-icon.webp" class="abs abs-centered w-20" alt="">
+                            <div class="abs bg-color z-2 top-0 w-100 h-100 hover-op-1"></div>
+                            <div class="abs z-2 bottom-0 mb-3 w-100 text-center hover-op-0">
+                                <h4 class="mb-3">Tree Removal & Trimming</h4>
+                            </div>
+                            <div class="gradient-trans-color-bottom abs w-100 h-40 bottom-0 Z-1"></div>
+                        </div>
+
+                        <div class="p-4 py-2">
+                            <p class="mt-3">We provide safe and professional tree removal and trimming services to
+                                maintain the health and beauty of your landscape.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6 wow fadeInRight" data-wow-delay=".3s">
+                    <div class="bg-color text-light rounded-1 overflow-hidden">
+                        <div class="hover relative overflow-hidden text-light text-center">
+                            <img src="images/services/2.webp" class="hover-scale-1-1 w-100" alt="">
+                            <div class="abs w-100 px-4 hover-op-1 z-4 hover-mt-40 abs-centered">
+                                <a class="btn-line" href="#">View Details</a>
+                            </div>
+                            <img src="images/logo-icon.webp" class="abs abs-centered w-20" alt="">
+                            <div class="abs bg-color z-2 top-0 w-100 h-100 hover-op-1"></div>
+                            <div class="abs z-2 bottom-0 mb-3 w-100 text-center hover-op-0">
+                                <h4 class="mb-3">24/7 Emergency Work</h4>
+                            </div>
+                            <div class="gradient-trans-color-bottom abs w-100 h-40 bottom-0 Z-1"></div>
+                        </div>
+
+                        <div class="p-4 py-2">
+                            <p class="mt-3">Our team has many years of experience in emergency work. We provide make
+                                safe solutions to the clients of insurance .</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6 wow fadeInRight" data-wow-delay=".6s">
+                    <div class="bg-color text-light rounded-1 overflow-hidden">
+                        <div class="hover relative overflow-hidden text-light text-center">
+                            <img src="images/services/3.webp" class="hover-scale-1-1 w-100" alt="">
+                            <div class="abs w-100 px-4 hover-op-1 z-4 hover-mt-40 abs-centered">
+                                <a class="btn-line" href="#">View Details</a>
+                            </div>
+                            <img src="images/logo-icon.webp" class="abs abs-centered w-20" alt="">
+                            <div class="abs bg-color z-2 top-0 w-100 h-100 hover-op-1"></div>
+                            <div class="abs z-2 bottom-0 mb-3 w-100 text-center hover-op-0">
+                                <h4 class="mb-3">Stump Grinding</h4>
+                            </div>
+                            <div class="gradient-trans-color-bottom abs w-100 h-40 bottom-0 Z-1"></div>
+                        </div>
+
+                        <div class="p-4 py-2">
+                            <p class="mt-3">From the smallest stumps to the largest ones, we have the machinery and
+                                skills to deal with it.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6 wow fadeInRight" data-wow-delay=".9s">
+                    <div class="bg-color text-light rounded-1 overflow-hidden">
+                        <div class="hover relative overflow-hidden text-light text-center">
+                            <img src="images/services/4.webp" class="hover-scale-1-1 w-100" alt="">
+                            <div class="abs w-100 px-4 hover-op-1 z-4 hover-mt-40 abs-centered">
+                                <a class="btn-line" href="#">View Details</a>
+                            </div>
+                            <img src="images/logo-icon.webp" class="abs abs-centered w-20" alt="">
+                            <div class="abs bg-color z-2 top-0 w-100 h-100 hover-op-1"></div>
+                            <div class="abs z-2 bottom-0 mb-3 w-100 text-center hover-op-0">
+                                <h4 class="mb-3">Arborist Reports</h4>
+                            </div>
+                            <div class="gradient-trans-color-bottom abs w-100 h-40 bottom-0 Z-1"></div>
+                        </div>
+
+                        <div class="p-4 py-2">
+                            <p class="mt-3">Our team includes cert 3 and 5 arborists that can assess your trees
+                                accordingly and provide you with the necessary guidance.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="jarallax text-light relative">
+        <img src="images/background/8.jpg" class="jarallax-img" alt="">
+        <div class="de-overlay"></div>
+        <div class="container relative z-1">
+            <div class="row g-4 gx-5 align-items-center">
+                <div class="col-lg-6">
+                    <div class="subtitle wow fadeInUp mb-3">Our Story</div>
+                    <h2 class="text-uppercase wow fadeInUp" data-wow-delay=".2s">Crafting Beautiful Gardens <span
+                            class="id-color-2">Since '99</span></h2>
+                    <p class="wow fadeInUp">Established in 1999, our garden service has been transforming outdoor spaces
+                        into thriving, beautiful landscapes for over two decades. With a commitment to quality and
+                        personalized care, our experienced team offers a full range of services, from design to
+                        maintenance, ensuring your garden flourishes in every season.</p>
+                    <a class="btn-main btn-line wow fadeInUp" href="projects" data-wow-delay=".6s">Our Projects</a>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="row g-4">
+                        <div class="col-sm-6">
+                            <div class="row g-4">
+                                <div class="col-lg-12">
+                                    <div class="text-center p-4 bg-blur rounded-1">
+                                        <h4 class="mb-1 fs-24">Excellent</h4>
+                                        <div class="de-rating-ext fs-18">
+                                            <div class="d-stars">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </div>
+                                            <div class="fs-15 mb-2">Based on 185 reviews</div>
+                                            <img src="images/misc/trustpilot.webp" class="w-120px" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div class="rounded-1 relative bg-dark-2 p-4">
+                                        <img src="images/icons/tree.png" class="abs abs-middle w-60px" alt="">
+                                        <div class="de_count ps-80 wow fadeInUp">
+                                            <h2 class="mb-0 fs-32"><span class="timer" data-to="550"
+                                                    data-speed="3000"></span>+</h2>
+                                            <span class="op-7">Garden Designed</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="row g-4">
+                                <div class="spacer-single sm-hide"></div>
+                                <div class="col-lg-12">
+                                    <div class="rounded-1 relative bg-dark-2 p-4">
+                                        <img src="images/icons/happy.png" class="abs abs-middle w-60px" alt="">
+                                        <div class="de_count ps-80 wow fadeInUp">
+                                            <h2 class="mb-0 fs-32"><span class="timer" data-to="850"
+                                                    data-speed="3000"></span>+</h2>
+                                            <span class="op-7">Happy Customers</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div class="text-center p-4 bg-blur rounded-1">
+                                        <h4 class="mb-1 fs-24">4.8 out of 5</h4>
+                                        <div class="de-rating-ext fs-18">
+                                            <div class="d-stars">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </div>
+                                            <div class="fs-15 mb-2">Based on 200 reviews</div>
+                                            <img src="images/misc/google.webp" class="w-120px" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="bg-light">
+        <div class="container">
+            <div class="row g-4 mb-3 align-items-center justify-content-center">
+                <div class="col-lg-6 text-center">
+                    <div class="subtitle wow fadeInUp">Why Choose Us</div>
+                    <h2 class="text-uppercase wow fadeInUp" data-wow-delay=".2s">Our Commitment to <span
+                            class="id-color-2">Excellence</span></h2>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 wow fadeInUp">
+                    <div class="relative h-100 bg-color text-light padding30 rounded-1">
+                        <img src="images/logo-icon.webp" class="w-50px mb-3" alt="">
+                        <div class="abs m-3 top-0 end-0 p-2 rounded-2 mb-3">01</div>
+                        <div>
+                            <h4>Decades of experience</h4>
+                            <p class="mb-0">With over 20 years of experience, our team of qualified and certified
+                                professionals have the expertise to handle all tree work, including emergency services.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 wow fadeInUp">
+                    <div class="relative h-100 bg-color text-light padding30 rounded-1">
+                        <img src="images/logo-icon.webp" class="w-50px mb-3" alt="">
+                        <div class="abs m-3 top-0 end-0 p-2 rounded-2 mb-3">02</div>
+                        <div>
+                            <h4>Certifications</h4>
+                            <p class="mb-0">We have all the relevant certifications in arboriculture, allowing us to
+                                provide you with the right guidance and, if needed, we can also produce reports.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 wow fadeInUp">
+                    <div class="relative h-100 bg-color text-light padding30 rounded-1">
+                        <img src="images/logo-icon.webp" class="w-50px mb-3" alt="">
+                        <div class="abs m-3 top-0 end-0 p-2 rounded-2 mb-3">03</div>
+                        <div>
+                            <h4>Hollows for Wildlife</h4>
+                            <p class="mb-0">From garden design and installation to regular maintenance and specialty
+                                services, we offer a full range of garden services.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 wow fadeInUp">
+                    <div class="relative h-100 bg-color-2 text-light padding30 rounded-1">
+                        <img src="images/logo-icon.webp" class="w-50px mb-3" alt="">
+                        <div class="abs m-3 top-0 end-0 p-2 rounded-2 mb-3">04</div>
+                        <div>
+                            <h4>Quality Workmanship</h4>
+                            <p class="mb-0">We use a specialised tool called a hollow hog to expediate the process of
+                                hollows for wildlife. In nature these hollows would usually take around 100 years to
+                                form naturally. </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 wow fadeInUp">
+                    <div class="relative h-100 bg-color-2 text-light padding30 rounded-1">
+                        <img src="images/logo-icon.webp" class="w-50px mb-3" alt="">
+                        <div class="abs m-3 top-0 end-0 p-2 rounded-2 mb-3">05</div>
+                        <div>
+                            <h4>Machinery</h4>
+                            <p class="mb-0">In addition to our expertise, we use a wide array of machinery to make light
+                                and safe work of the most difficult of jobs.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- <section>
+                <div class="container">
+                    <div class="row g-4 mb-3 align-items-center justify-content-center">
+                        <div class="col-xl-6 text-center">
+                            <div class="subtitle wow fadeInUp">Garden and Landscaping</div>
+                            <h2 class="text-uppercase wow fadeInUp" data-wow-delay=".2s">Pricing <span class="id-color-2">Plan</span></h2>
+                        </div>                        
+                    </div>
+                    <div class="row g-4">
+                        <div class="col-lg-4 col-sm-6 wow fadeInRight" data-wow-delay=".0s" >
+                            <div class="relative bg-light p-30 pb-80 rounded-1 h-100">
+                                <div class="text-center mb-3">
+                                    <img src="images/logo-icon-color.webp" class="w-80px mb-3" alt="">
+                                    <h4>Standard Plan</h4>
+                                    <div class="spacer-30"></div>
+                                    <div class=""></div>
+                                    <span class="fs-64 fw-500 text-dark">$19</span>
+                                    <div class="fw-600">/visit</div>
+                                    <div class="spacer-20"></div>
+                                </div>
+
+                                <h5 class="mb-2">Services Included</h5>
+                                <ul class="ul-style-2">
+                                    <li>Mowing and edging</li>
+                                    <li>Seasonal pruning of shrubs and trees</li>
+                                    <li>Mulching of garden beds</li>
+                                    <li>Fertilization (lawn and plants)</li>
+                                    <li>Weed control</li>
+                                    <li>Irrigation system checks and adjustments</li>
+                                </ul>
+                                <div class="spacer-20"></div>
+
+                                <div class="abs abs-center w-100 bottom-0 mb-5 px-5">
+                                    <a class="btn-main w-100" href="#">Select Plan</a>
+                                </div>
+                                <div class="spacer-20"></div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-sm-6 wow fadeInRight" data-wow-delay=".3s" >
+                            <div class="relative overflow-hidden bg-light p-30 pb-80 rounded-1 h-100 jarallax text-light">
+                                <img src="images/misc/5.webp" class="jarallax-img" alt="">
+                                <div class="de-overlay op-5"></div>
+                                <div class="text-center mb-3 relative z-2">
+                                    <img src="images/logo-icon-color.webp" class="w-80px mb-3" alt="">
+                                    <h4>Premium Plan</h4>
+                                    <div class="spacer-30"></div>
+                                    <div class=""></div>
+                                    <span class="fs-64 fw-500">$250</span>
+                                    <div class="fw-600">/visit</div>
+                                    <div class="spacer-20"></div>
+                                </div>
+
+                                <h5 class="mb-2 relative z-2">Services Included</h5>
+                                <ul class="ul-style-2">
+                                    <li>All services from the Standard Plan</li>
+                                    <li>Seasonal flower planting and bed re-design</li>
+                                    <li>Plant health care (pest and disease control)</li>
+                                    <li>Soil testing and amendments</li>
+                                    <li>Aeration and dethatching of lawns</li>
+                                    <li>Customized garden care based on client preferences</li>
+                                </ul>
+                                <div class="spacer-20"></div>
+
+                                <div class="abs abs-center w-100 bottom-0 mb-5 px-5">
+                                    <a class="btn-main w-100" href="#">Select Plan</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-sm-6 wow fadeInRight" data-wow-delay=".6s" >
+                            <div class="relative bg-light p-30 pb-80 rounded-1 h-100">
+                                <div class="text-center mb-3">
+                                    <img src="images/logo-icon-color.webp" class="w-80px mb-3" alt="">
+                                    <h4>Deluxe Plan</h4>
+                                    <div class="spacer-30"></div>
+                                    <div class=""></div>
+                                    <span class="fs-64 fw-500 text-dark">$400</span>
+                                    <div class="fw-600">/visit</div>
+                                    <div class="spacer-20"></div>
+                                </div>
+
+                                <h5 class="mb-2">Services Included</h5>
+                                <ul class="ul-style-2">
+                                    <li>All services from the Premium Plan</li>
+                                    <li>Weekly garden visits for ongoing care</li>
+                                    <li>Detailed hand-weeding and deadheading</li>
+                                    <li>Organic fertilization and pest control options</li>
+                                    <li>Custom seasonal decor (holiday lighting, planters)</li>
+                                    <li>Personalized garden consultation each season</li>
+                                </ul>
+                                <div class="spacer-20"></div>
+
+                                <div class="abs abs-center w-100 bottom-0 mb-5 px-5">
+                                    <a class="btn-main w-100" href="#">Select Plan</a>
+                                </div>
+                                <div class="spacer-20"></div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </section> -->
+
+    <section class="p-4" aria-label="section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12">
+                    <a class="d-block hover popup-youtube" href="#">
+                        <div class="relative overflow-hidden rounded-1">
+                            <div class="absolute start-0 w-100 abs-middle fs-36 text-white text-center z-2">
+                                <div class="player wow scaleIn"><span></span></div>
+                            </div>
+                            <div class="absolute w-100 h-100 top-0 bg-dark hover-op-05"></div>
+                            <img src="images/background/1.jpg" class="w-100 hover-scale-1-1" alt="">
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="jarallax">
+        <img src="images/background/4.webp" class="jarallax-img" alt="">
+        <div class="container relative z-2">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 text-center">
+                    <div class="owl-single-dots owl-carousel owl-theme">
+                        <div class="item">
+                            <i class="icofont-quote-left fs-40 mb-4 wow fadeInUp id-color-2"></i>
+                            <h3 class="mb-4 wow fadeInUp fs-32">We hired Alps Landscaping to transform our backyard, and
+                                the results were beyond our expectations. The team was professional, punctual, and
+                                incredibly knowledgeable about plants and landscaping.</h3>
+                            <span class="wow fadeInUp">Donette Fondren</span>
+                        </div>
+
+                        <div class="item">
+                            <i class="icofont-quote-left fs-40 mb-4 wow fadeInUp id-color-2"></i>
+                            <h3 class="mb-4 wow fadeInUp fs-32">We hired Alps Landscaping to transform our backyard, and
+                                the results were beyond our expectations. The team was professional, punctual, and
+                                incredibly knowledgeable about plants and landscaping.</h3>
+                            <span class="wow fadeInUp">Donette Fondren</span>
+                        </div>
+
+                        <div class="item">
+                            <i class="icofont-quote-left fs-40 mb-4 wow fadeInUp id-color-2"></i>
+                            <h3 class="mb-4 wow fadeInUp fs-32">We hired Alps Landscaping to transform our backyard, and
+                                the results were beyond our expectations. The team was professional, punctual, and
+                                incredibly knowledgeable about plants and landscaping.</h3>
+                            <span class="wow fadeInUp">Donette Fondren</span>
+                        </div>
+
+                        <div class="item">
+                            <i class="icofont-quote-left fs-40 mb-4 wow fadeInUp id-color-2"></i>
+                            <h3 class="mb-4 wow fadeInUp fs-32">We hired Alps Landscaping to transform our backyard, and
+                                the results were beyond our expectations. The team was professional, punctual, and
+                                incredibly knowledgeable about plants and landscaping.</h3>
+                            <span class="wow fadeInUp">Donette Fondren</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="visual-showcase-section mb-3"
+        style="background: #0b2a1f; padding: 2rem 0 4rem 0; font-family: 'Inter', system-ui, -apple-system, sans-serif;">
+        <div class="gallery-container" style="max-width: 1400px; margin: 0 auto; padding: 0 24px;" id="gall">
+
+            <!-- SECTION TITLE - minimal text, just a visual tagline -->
+            <div style="text-align: center; margin-bottom: 2.5rem;">
+                <span
+                    style="background: #c17b2e20; backdrop-filter: blur(4px); padding: 6px 18px; border-radius: 60px; font-size: 0.85rem; font-weight: 600; letter-spacing: 1px; color: #d9c8a3; border: 1px solid #c17b2e60;"><i
+                        class="fas fa-images" style="margin-right: 8px;"></i> VISUAL PORTFOLIO</span>
+                <h2
+                    style="font-size: 2.8rem; font-weight: 800; margin-top: 1.2rem; background: linear-gradient(135deg, #E9E0C7, #cfa668); -webkit-background-clip: text; background-clip: text; color: transparent; letter-spacing: -0.01em;">
+                    Tree Artistry in Focus</h2>
+                <p style="color: #b9b28a; max-width: 520px; margin: 0.8rem auto 0; font-size: 1rem;">— moments captured,
+                    no words needed —</p>
+            </div>
+
+
+
+            <!-- HORIZONTAL SCROLL GALLERY - EXTRA IMAGES, no text descriptions extra -->
+            <div style="margin: 3rem 0 2rem;">
+                <div
+                    style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 1rem; flex-wrap: wrap;">
+
+                    <span
+                        style="color: #b9aa7a; font-size: 0.8rem; background: #2c3b25; padding: 4px 12px; border-radius: 40px;">scroll
+                        →</span>
+                </div>
+                <div style="display: flex; overflow-x: auto; gap: 20px; padding-bottom: 12px; scrollbar-width: thin;">
+                    <div style="flex: 0 0 300px; border-radius: 24px; overflow: hidden; transition: 0.3s; cursor: pointer;"
+                        onclick="openModal('images/gallery/g1.jpeg')">
+                        <img src="images/gallery/g1.jpeg"
+                            style="width: 100%; height: 230px; object-fit: cover; display: block;">
+                    </div>
+                    <div style="flex: 0 0 300px; border-radius: 24px; overflow: hidden; cursor: pointer;"
+                        onclick="openModal('images/gallery/g2.jpeg')">
+                        <img src="images/gallery/g2.jpeg" style="width: 100%; height: 230px; object-fit: cover;">
+                    </div>
+                    <div style="flex: 0 0 300px; border-radius: 24px; overflow: hidden; cursor: pointer;"
+                        onclick="openModal('images/gallery/g3.jpeg')">
+                        <img src="images/gallery/g3.jpeg" style="width: 100%; height: 230px; object-fit: cover;">
+                    </div>
+                    <div style="flex: 0 0 300px; border-radius: 24px; overflow: hidden; cursor: pointer;"
+                        onclick="openModal('images/gallery/g4.jpeg')">
+                        <img src="images/gallery/g4.jpeg" style="width: 100%; height: 230px; object-fit: cover;">
+                    </div>
+                    <div style="flex: 0 0 300px; border-radius: 24px; overflow: hidden; cursor: pointer;"
+                        onclick="openModal('images/gallery/g5.jpeg')">
+                        <img src="images/gallery/g5.jpeg" style="width: 100%; height: 230px; object-fit: cover;">
+                    </div>
+                    <!-- <div style="flex: 0 0 300px; border-radius: 24px; overflow: hidden; cursor: pointer;"
+                        onclick="openModal('images/gallery/g6.jpeg')">
+                        <img src="images/gallery/g6.jpeg" style="width: 100%; height: 230px; object-fit: cover;">
+                    </div> -->
+                </div>
+            </div>
+
+            <!-- SECOND ROW: FULL WIDE VISUAL BANNER -->
+            <div style="margin: 3rem 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px;">
+
+                <div class="wide-card"
+                    style="grid-column: span 2; border-radius: 32px; overflow: hidden; position: relative; cursor: pointer;"
+                    onclick="openModal('images/gallery/g6.jpeg')">
+
+                    <img src="images/gallery/g6.jpeg" style="width: 100%; height: 380px; object-fit: cover;"
+                        alt="team arborist">
+                </div>
+
+                <div style="border-radius: 32px; overflow: hidden; cursor: pointer;"
+                    onclick="openModal('images/gallery/g7.jpeg')">
+
+                    <img src="images/gallery/g7.jpeg" style="width: 100%; height: 380px; object-fit: cover;"
+                        alt="machinery operation">
+                </div>
+
+            </div>
+
+
+        </div>
+
+        <!-- LIGHTBOX MODAL (for image enlargement) -->
+        <div id="imageModal"
+            style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.95); backdrop-filter: blur(12px); z-index: 9999; align-items: center; justify-content: center; flex-direction: column;"
+            onclick="closeModal()">
+            <span
+                style="position: absolute; top: 30px; right: 40px; font-size: 40px; color: white; cursor: pointer; font-weight: 300; z-index: 10000;"
+                onclick="closeModal()">&times;</span>
+            <img id="modalImage" src=""
+                style="max-width: 90%; max-height: 85%; border-radius: 18px; box-shadow: 0 25px 40px rgba(0,0,0,0.5); object-fit: contain;">
+            <div
+                style="color: #ddd; margin-top: 20px; font-size: 14px; background: #00000080; padding: 6px 16px; border-radius: 40px;">
+                ALPS Tree Services — click anywhere to close</div>
+        </div>
+    </section>
+
+    <section class="padd" id="contact">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-6">
+                    <h3 class="wow fadeInUp">Send Your Message</h3>
+
+                    <p>Whether you have a question, a suggestion, or just want to say hello, this is the place to do it.
+                        Please fill out the form below with your details and message, and we'll get back to you as soon
+                        as possible.</p>
+
+                    <div class="spacer-single"></div>
+
+                    <div class="rounded-1 bg-light overflow-hidden">
+                        <div class="row g-2">
+                            <div class="col-sm-6">
+                                <div class="auto-height relative" data-bgimage="url(images/blog/1.jpg)"></div>
+                            </div>
+                            <div class="col-sm-6 relative">
+                                <div class="p-30">
+                                    <div class="fw-bold text-dark"><i
+                                            class="icofont-clock-time me-2 id-color-2"></i>We're Open</div>
+                                    Monday to Saturday (7:00 AM – 5:00 PM)
+
+                                    <div class="spacer-20"></div>
+
+                                    <div class="fw-bold text-dark"><i
+                                            class="icofont-location-pin me-2 id-color-2"></i>Office Location</div>
+                                    52 Mittagong Rd Bowral NSW Sydney 2576 AU
+
+                                    <div class="spacer-20"></div>
+
+                                    <div class="fw-bold text-dark"><i class="icofont-phone me-2 id-color-2"></i>Call Us
+                                        Directly</div>
+                                    <a href="tel:+61412345678">
+                                        0402622211
+                                    </a>
+
+                                    <div class="spacer-20"></div>
+
+                                    <div class="fw-bold text-dark"><i class="icofont-envelope me-2 id-color-2"></i>Send
+                                        a Message</div>
+                                    <a href="mailto:alpstreeservice@gmail.com">
+                                        alpstreeservice@gmail.com
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="p-4 rounded-10px">
+                        <form name="contactForm" id="contact_form" class="position-relative z1000" method="post"
+                            action="contact.php" enctype="multipart/form-data">
+
+                            <div class="field-set">
+                                <input type="text" name="name" id="name" class="form-control" placeholder="Your Name"
+                                    required>
+                            </div>
+
+                            <div class="field-set">
+                                <input type="text" name="email" id="email" class="form-control" placeholder="Your Email"
+                                    required>
+                            </div>
+
+                            <div class="field-set">
+                                <input type="text" name="phone" id="phone" class="form-control" placeholder="Your Phone"
+                                    required>
+                            </div>
+
+                            <div class="field-set mb20">
+                                <textarea name="message" id="message" class="form-control" placeholder="Your Message"
+                                    required></textarea>
+                            </div>
+
+
+                            <div class="g-recaptcha" data-sitekey="6LdW03QgAAAAAJko8aINFd1eJUdHlpvT4vNKakj6"></div>
+                            <div id='submit' class="mt20">
+                                <input type='submit' id='send_message' value='Send Message' class="btn-main">
+                            </div>
+
+                            <div id="success_message" class='success'>
+                                Your message has been sent successfully. Refresh this page if you want to send more
+                                messages.
+                            </div>
+                            <div id="error_message" class='error'>
+                                Sorry there was an error sending your form.
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+</div>
+<!-- content end -->
+<br>
+
+<style>
+    /* smooth scroll & additional gallery hover polish */
+    .gallery-card,
+    .wide-card,
+    [style*="flex: 0 0 300px"] {
+        transition: transform 0.25s ease, box-shadow 0.3s;
+    }
+
+    .gallery-card:hover,
+    .wide-card:hover,
+    [style*="flex: 0 0 300px"]:hover {
+        transform: translateY(-6px);
+        box-shadow: 0 28px 35px -12px rgba(0, 0, 0, 0.45);
+    }
+
+    ::-webkit-scrollbar {
+        height: 5px;
+        background: #2c3b25;
+        border-radius: 10px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: #c17b2e;
+        border-radius: 10px;
+    }
+
+    .gallery-container {
+        animation: fadeInUp 0.8s ease-out;
+    }
+
+    @keyframes fadeInUp {
+        from {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    /* remove extra body margin if any */
+    body {
+        margin: 0;
+        padding: 0;
+        background: #0b2a1f;
+    }
+
+    section {
+        display: block;
+    }
+</style>
+
+<script>
+    // Lightbox modal functions
+    function openModal(imageUrl) {
+        const modal = document.getElementById('imageModal');
+        const modalImg = document.getElementById('modalImage');
+        if (modal && modalImg) {
+            modal.style.display = 'flex';
+            modalImg.src = imageUrl;
+            document.body.style.overflow = 'hidden';
+        }
+    }
+    function closeModal() {
+        const modal = document.getElementById('imageModal');
+        if (modal) {
+            modal.style.display = 'none';
+            document.body.style.overflow = 'auto';
+        }
+    }
+    // Close on escape key
+    document.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape') {
+            closeModal();
+        }
+    });
+    // optional lazy edge
+    window.addEventListener('click', function (e) {
+        const modal = document.getElementById('imageModal');
+        if (e.target === modal) closeModal();
+    });
+</script>
+
+<!-- include FontAwesome just in case if not loaded (but it's safe) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">

@@ -1,0 +1,13 @@
+RewriteEngine On
+
+# 1. Redirect /index or /index.php → /
+RewriteCond %{THE_REQUEST} \s/+alps/webhome/index(\.php)?[\s?]
+RewriteRule ^index(\.php)?$ /alps/webhome/ [R=301,L]
+
+# 2. Load index.php when directory is requested
+DirectoryIndex index.php
+
+# 3. Hide .php extension
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.+)$ $1.php [L]
