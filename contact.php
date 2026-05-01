@@ -18,16 +18,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 	try {
 		$mail->isSMTP();
-		$mail->Host       = 'alpstreeservice.com.au';
+		$mail->Host       = 'your-dmainname.com';
 		$mail->SMTPAuth   = true;
-		$mail->Username   = 'noreply@alpstreeservice.com.au';
-		$mail->Password   = 'Alps@123!';
+		$mail->Username   = 'noreply@your-dmainname.com';
+		$mail->Password   = 'xxxxxx';
 		$mail->SMTPSecure = 'ssl';
 		$mail->Port       = 465;
 
 		$mail->SMTPDebug = 0; // change to 2 for debug
 
-		$mail->setFrom('noreply@alpstreeservice.com.au', 'ALPS Tree Service');
+		$mail->setFrom('noreply@your-dmainname.com', 'ALPS Tree Service');
 		$mail->addAddress('alpstreeservice@gmail.com');
 		$mail->addReplyTo($email, $name);
 
@@ -47,14 +47,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 		$mail2 = new PHPMailer(true);
 
 		$mail2->isSMTP();
-		$mail2->Host       = 'mail.alpstreeservice.com.au';
+		$mail2->Host       = 'mail.your-dmainname.com';
 		$mail2->SMTPAuth   = true;
-		$mail2->Username   = 'noreply@alpstreeservice.com.au';
-		$mail2->Password   = 'Alps@123!';
+		$mail2->Username   = 'noreply@your-dmainname.com';
+		$mail2->Password   = 'xxxxxx';
 		$mail2->SMTPSecure = 'ssl';
 		$mail2->Port       = 465;
 
-		$mail2->setFrom('noreply@alpstreeservice.com.au', 'ALPS Tree Service');
+		$mail2->setFrom('noreply@your-dmainname.com', 'ALPS Tree Service');
 		$mail2->addAddress($email);
 
 		$mail2->isHTML(true);
